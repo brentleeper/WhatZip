@@ -12,15 +12,15 @@ Request format examples: GET
   Zipcode: http://127.0.0.1:5000/<user_token>/zipcode/<response_format>?[zipcode=xxxxx]
   
   
-Valid path param options:
-  <user_token>      - Not currently implemented, pass any string
-  <search_type>     - coordinate, radius, zipcode
-  <response_format> - json, xml
-  
-<search_type> required params:
-  coordinate:   -90 <= lat:float <= 90, -180 <= lon:float <= 180
-  radius:       -90 <= lat:float <= 90, -180 <= lon:float <= 180, radius:int
-  zipcode:      zipcode:int:5
+Valid path param options:  
+  <user_token>      - Not currently implemented, pass any string  
+  <search_type>     - coordinate, radius, zipcode  
+  <response_format> - json, xml 
+    
+<search_type> required params:  
+  coordinate:   -90 <= lat:float <= 90, -180 <= lon:float <= 180  
+  radius:       -90 <= lat:float <= 90, -180 <= lon:float <= 180, radius:int  
+  zipcode:      zipcode:int:5  
 
 
 Response Example:
