@@ -7,9 +7,9 @@ Request format examples: GET
   
   Coordinate: http://127.0.0.1:5000/<user_token>/coordinate/<response_format>?lat=float&lon=float
   
-  Radius: http://127.0.0.1:5000/<user_token>/radius/<response_format>?[lat=float]&[lon=float]&[radius=int]
+  Radius: http://127.0.0.1:5000/<user_token>/radius/<response_format>?lat=float&lon=float&radius=int
   
-  Zipcode: http://127.0.0.1:5000/<user_token>/zipcode/<response_format>?[zipcode=xxxxx]
+  Zipcode: http://127.0.0.1:5000/<user_token>/zipcode/<response_format>?zipcode=xxxxx
   
   
 Valid path param options:  
@@ -19,7 +19,7 @@ Valid path param options:
     
 <search_type> required params:  
   coordinate:   -90 <= lat:float <= 90, -180 <= lon:float <= 180  
-  radius:       -90 <= lat:float <= 90, -180 <= lon:float <= 180, radius:int  
+  radius:       -90 <= lat:float <= 90, -180 <= lon:float <= 180, 0 < radius:int <= 25
   zipcode:      zipcode:int:5  
 
 
