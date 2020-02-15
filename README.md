@@ -25,6 +25,7 @@ Valid path param options:
 
 Response Example:
  JSON:
+ ```json
   {
   "message": "success",
   "request_ip": "127.0.0.1",
@@ -83,8 +84,9 @@ Response Example:
   ],
   "user_token": "asdflkdjsf"
 }
-
+```
 XML:
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
 	<user_token type="str">asdflkdjsf</user_token>
@@ -116,3 +118,4 @@ XML:
 	</results>
 	<result_ct type="int">2</result_ct>
 </root>
+```
