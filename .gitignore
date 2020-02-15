@@ -1,0 +1,5 @@
+
+.DS_Store
+__pycache__/db_config.cpython-37.pyc
+__pycache__/get_postal_data.cpython-37.pyc
+*.zip
